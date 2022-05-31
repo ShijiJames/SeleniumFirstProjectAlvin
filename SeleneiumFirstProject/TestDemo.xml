@@ -1,0 +1,16 @@
+<suite name="MyDemoSuite">
+	<test name="MyDemoTest">
+		<parameter name="val1" value="2"></parameter>
+		<parameter name="val2" value="4"></parameter>
+		<classes>
+			<class name="testng.TestParameter"></class>
+		</classes>
+	</test>
+<test name="MyDemoTest2">
+		<parameter name="val1" value="5"></parameter>
+		<parameter name="val2" value="10"></parameter>
+		<classes>
+			<class name="testng.TestParameter"></class>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,18 @@
+<suite name="Test Suite">
+	<test name="Chrome test">
+		<groups>
+			<run>
+				<!--<include name="critical"></include>
+				<include name="low"></include>-->
+				<exclude name="critical"></exclude>
+				<exclude name="high"></exclude>
+
+			</run>
+		</groups>
+		<classes>
+			<class name="testng.Grouping" />
+
+		</classes>
+	</test>
+
+</suite> 

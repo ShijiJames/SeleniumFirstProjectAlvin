@@ -1,0 +1,8 @@
+<suite name="MyTestSuite">
+	<test name="My Test">
+		<classes>
+			<class name="testng.AssertionsCls"></class>
+			<class name="testng.Annotations"></class>
+		</classes>
+	</test>
+</suite>
